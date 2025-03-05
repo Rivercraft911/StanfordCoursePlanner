@@ -3,7 +3,7 @@
 A super simple web application to help Stanford students plan their academic journey, track GPA, monitor workload, and ensure WAYS requirements are met. OnCourse and Carta are much better, but this planner also calculates gpa!
 
 ![Stanford Course Planner Screenshot](screenshot.png)
-
+![Stanford Course Planner Screenshot](screenshot2.png)
 ## Features
 
 - **Course Management**: Add, edit, and organize courses by year (Freshman, Sophomore, Junior, Senior) and quarter
