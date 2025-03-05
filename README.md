@@ -90,8 +90,7 @@ This application is designed to run entirely client-side with no backend depende
 - **Tailwind CSS**: Styling is handled through Tailwind CSS via CDN
 - **Lodash**: Used for data manipulation functions
 - **Local Storage**: Your course data is automatically saved to your browser's local storage
-- **No Backend**: Everything runs in your browser, with no server required
-
+  
 ## Development
 
 To modify the application:
