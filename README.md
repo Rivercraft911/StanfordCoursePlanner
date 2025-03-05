@@ -39,19 +39,50 @@ A super simple web application to help Stanford students plan their academic jou
 2. Open `index.html` in your web browser
 3. Start planning your courses!
 
-### No Installation Required
+## Running the Application
 
-This is a pure HTML/JavaScript application that runs entirely in your browser. No server, build process, or installation required.
+### Option 1: Using a Local Server (Recommended)
 
-## Repository Structure
+For the best experience and to avoid browser security restrictions:
 
-```
-stanford-course-planner/
-├── index.html          # Main HTML file - open this to run the application
-├── script.js           # Application logic and React components
-├── README.md           # This file
-└── screenshot.png      # (Optional) Screenshot of the application
-```
+1. Navigate to the project directory in your terminal:
+   ```bash
+   cd stanford-course-planner
+   ```
+
+2. Start a simple HTTP server:
+   ```bash
+   # Using Python (already installed on most systems)
+   python -m http.server    # Python 3
+   # OR
+   python -m SimpleHTTPServer   # Python 2
+   
+   # OR using Node.js
+   npx http-server
+   ```
+
+3. Open your browser and visit:
+   ```
+   http://localhost:8000
+   ```
+
+### Option 2: Direct Browser Opening
+
+For quick access (with some limitations):
+
+1. Some modern browsers may restrict functionality when opening HTML files directly due to security policies
+2. To use direct browser opening, you may need to adjust your browser security settings or use Firefox, which tends to be more permissive with local files
+3. Simply double-click `index.html` or drag it into your browser window
+
+### Data Storage
+
+- Course data is automatically saved to your browser's local storage
+- Use the Export/Import buttons to save your data as JSON files for backup or sharing
+- Your data persists between browser sessions as long as you don't clear your browser cache
+
+This application is designed to run entirely client-side with no backend dependencies, making it easy to deploy anywhere you can serve static files.
+
+
 
 ## How It Works
 
